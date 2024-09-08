@@ -25,8 +25,8 @@ jobs:
         
     - name: Update Keys
       run: |
-        git config --global user.name "MAHESH-KADALI"
-        git config --global user.email "pogodrawings@gmail.com"        
+        git config --global user.name "NrTeams"
+        git config --global user.email "tellybots2021@gmail.com"        
         python keys.py  # Script to update keys
         git add keys.json
         git commit --amend -m "Update keys"
